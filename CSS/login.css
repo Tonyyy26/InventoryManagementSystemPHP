@@ -1,0 +1,63 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;          
+}
+
+#login-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 380px;
+    height: 450px;
+    border: 1px solid rgb(185, 185, 185);
+    border-radius: 3px;
+    box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.10);
+    font-family: Montserrat;
+    font-weight: 600;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 40%;
+}
+
+#login-container label[for="username"],
+#login-container label[for="password"]
+{
+    color: rgb(65, 65, 65);
+    cursor: pointer;
+}
+
+#username,
+#password {
+    border: 1px solid rgb(165, 164, 164);
+    border-radius: 3px;
+    margin-bottom: 15px;
+    height: 42px;
+    padding: 2px 12px;
+    font-size: 12px;
+    font-weight: 500;
+    color: rgb(68, 67, 67);
+    outline: none;
+}
+
+#username:focus,
+#password:focus {
+    outline: 0.5px solid #5aa8dd; /* Set the desired outline color and width */
+}
+
+#login-button {
+    border: 1px solid rgb(0, 0, 0, 0.8);
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(0, 0, 0, 0.8);
+    font-size: 15px;
+    font-weight: 600;
+    height: 50px;
+    cursor: pointer;
+}
